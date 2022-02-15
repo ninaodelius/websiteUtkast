@@ -141,3 +141,6 @@ body{
 .highscore-content-wrapper h1 {
     color: lightseagreen
 }
+
+
+canvas { background: 	#808080; display: block; margin: 0 auto; }
