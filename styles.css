@@ -65,18 +65,18 @@ body{
 }
 
 
-/*portfolio styles*/
+/*game frontpage styles*/
 
-.portfolio-items-wrapper {
+.game-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.portfolio-item-wrapper {
+.game-item-wrapper {
     position: relative;
 }
 
-.portfolio-img-background {
+.game-img-background {
     height: 350px;
     width: 100%;
     background-size: cover;
@@ -142,5 +142,5 @@ body{
     color: lightseagreen
 }
 
-
+/*gametwo*/
 canvas { background: 	#808080; display: block; margin: 0 auto; }
