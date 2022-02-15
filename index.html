@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>ProjectJS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <div class="nav-wrapper">
             <div class="left-side">
-                <div class="nav-link-wrapper">
+                <div class="nav-link-wrapper active-nav-link">
                 <a href="index.html">Home</a>
             </div>
             <div class="nav-link-wrapper">
@@ -18,7 +19,8 @@
             </div>
         <div class="right-side">
             <div class="brand">
-                <div>SIGN IN</div>
+                <!-- <div>SIGN IN</div> -->
+                <a href="signin.html">Sign in</a>
             </div>
         </div>
         </div>
@@ -72,8 +74,12 @@
 
     portfolioItems.forEach(portfolioItem => {
         portfolioItem.addEventListener('mouseover', () => {
-            console.log(portfolioItem.childNodes);
+            portfolioItem.childNodes[1].classList.add('img-darken');
         })
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+        })
+
     })
 </script>
 

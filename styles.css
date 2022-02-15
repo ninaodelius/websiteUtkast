@@ -1,7 +1,9 @@
 /*master styles*/
 
 body{
+    font-family: "Lato", sans-serif;
     margin: 0px;
+
 }
 
 .container {
@@ -45,6 +47,14 @@ body{
 }
 .nav-link-wrapper a:hover {
     border-bottom: black;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    border-bottom:  black !important;
 }
 
 /*portfolio styles*/
@@ -99,4 +109,23 @@ color:transparent;
 .img-darken {
     transition: 1s;
     filter: brightness(10%)
+}
+
+/*highscore*/
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.highscore-image-wrapper img {
+    width: 100%
+}
+
+.highscore-content-wrapper {
+    padding: 30px;
+}
+
+.highscore-content-wrapper h1 {
+    color: lightseagreen
 }
