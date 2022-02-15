@@ -84,7 +84,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.img-text-wrapper{
+.img-text-wrapper {
     position: absolute;
     top: 0;
     display: flex;
@@ -97,18 +97,18 @@ body{
     padding-right: 100px;
 }
 
-.img-text-wrapper .subtitle {
+.img-text-wrapper .subtitle a{
     transition:1s;
     font-weight: 600;
     color:transparent;
     }
 
-.logo-wrapper img{
+.logo-wrapper img {
     width: 50%;
     margin-bottom: 20px;
 }
 
-.img-text-wrapper:hover .subtitle {
+.img-text-wrapper:hover .subtitle a{
     font-weight: 600;
     color: lightseagreen;
 }
