@@ -1,11 +1,11 @@
-const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+const gameItems = document.querySelectorAll('.game-item-wrapper')
 
-portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-        portfolioItem.childNodes[1].classList.add('img-darken');
+gameItems.forEach(gameItem => {
+    gameItem.addEventListener('mouseover', () => {
+        gameItem.childNodes[1].classList.add('img-darken');
     })
-    portfolioItem.addEventListener('mouseout', () => {
-        portfolioItem.childNodes[1].classList.remove('img-darken');
+    gameItem.addEventListener('mouseout', () => {
+        gameItem.childNodes[1].classList.remove('img-darken');
     })
 
 })
